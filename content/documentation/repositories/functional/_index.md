@@ -45,8 +45,7 @@ Gitea som back-end med andre liknende Git-systemer.
 </div>
 
 ### 3.0 Tjeneste
-Repository som representerer en "3.0-tjeneste", og inneholder alle filer som tjenesten består av.  
-Hver utgave av en tjeneste vil leve i sin egen mappe, slik at ett repository kan inneholde èn eller flere utgaver av den samme tjenesten.
+Repository som representerer en "3.0-tjeneste", og inneholder alle filer som tjenesten består av. Ett repository inneholder kun en enkelt tjeneste.
 
 ### Repository management
 

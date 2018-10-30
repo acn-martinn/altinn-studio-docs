@@ -1,26 +1,26 @@
 ---
-title: Lag en utgave
-description: Dokumentasjon av funksjonalitet tilgjengelig for å lage en utgave
+title: Lag en tjeneste
+description: Dokumentasjon av funksjonalitet tilgjengelig for å lage en tjeneste
 tags: ["guide"]
 weight: 100
 ---
 
-Oversikt over eksisterende utgaver finner man ved å gå inn på tjenesten, f.eks. fra startsiden. 
+Oversikt over eksisterende tjenester finner man på startsiden, eller tjenesteeiersiden. 
 
-Ny utgave lages fra tjenestesiden:
+Ny tjeneste lages fra tjenesteeiersiden.
 
-{{<figure src="create-edition.gif?width=1000" title="Lage ny utgave">}}
+{{<figure src="create-edition.gif?width=1000" title="Lage ny tjeneste">}}
 
 ### Last opp datamodell
 Datamodellen definerer hva slags data som skal knyttes til tjenesten. Per nå støttes datamodell i form av XSD (Seres eller OR). 
 
-Datamodellen lastes opp på utgaven. Dersom datamodell ikke er lastet oopp før vil det stå en melding om dette på hovedsiden til utgaven. Datamodell 
-kan også lastes opp/sees fra **Modellering**-siden til utgaven.
+Datamodellen lastes opp på tjenesten. Dersom datamodell ikke er lastet oopp før vil det stå en melding om dette på hovedsiden til tjenesten. Datamodell 
+kan også lastes opp/sees fra **Modellering**-siden til tjenesten.
 {{<figure src="add-datamodel.gif?width=1000" title="Legg til datamodell">}}
 
 ### Lag skjema med UI editor
 
-UI editor ligger under **UX** i toppmenyen for utgaven, under **Designer**
+UI editor ligger under **UX** i toppmenyen for tjenesten, under **Designer**
 {{<figure src="go-to-designer.gif?width=1000" title="UI editor">}}
 
 Skjemaelementer legges til ved å velge type element fra oversikten til venstre. Visning av skjema ligger på høyre side.
@@ -61,9 +61,9 @@ mappes til det definerte feltet i datamodellen. Knytning mot felt i datamodell g
 
 ### <a name="add-texts"></a> Legg til tekster
 Tekster hentes inn både fra et fellesbibliotek tilgjengelig for alle, og evt. også fra fellesbibliotek for den enkelte tjenesteeier. 
-Det er også mulig å legge inn egne tekster knyttet til en utgave, eller å overstyre tekster fra fellesbibliotek for en utgave.
+Det er også mulig å legge inn egne tekster knyttet til en tjeneste, eller å overstyre tekster fra fellesbibliotek for en tjeneste.
 
-#### Legge til, redigere eller overstyre tekster for en utgave
+#### Legge til, redigere eller overstyre tekster for en tjeneste
 I toppmenyen, under **UX** velges menyvalget **Tekster** for å komme til tekstredigeringsverktøyet. Dette kan også nås ved å velge fanen **Tekster** 
 dersom en allerede er inne i UI editoren. 
 
@@ -76,9 +76,9 @@ En kodeliste er en forhåndsdefinert liste med nøkler (_koder_) og visningsteks
 Når kodeliste knyttes til en skjemakomponent velger man hvilken visningsverdi som skal brukes. Kodelister knyttes typisk mot en nedtrekksliste.
 
 Kodelister hentes både fra felles bibliotek tilgjengelig for alle, evt. felles kodelister for den enkelte tjenesteeier, og kodelister som 
-er definert på en utgave. 
+er definert på en tjeneste. 
 
-#### Redigere eller endre kodeliste for en utgave
+#### Redigere eller endre kodeliste for en tjeneste
 I toppmenyen, under **Modellering** velges menyvalget kodelister. 
 
 For å redigere eksisterende kodeliste, velg ønsket kodeliste fra listen.
@@ -98,7 +98,7 @@ For å lage ny kodeliste, velg _Lag ny kodeliste_.
 8. Lagre, da lukker vinduet for konfigurering av kodelister seg. 
 9. Lagre skjema
 
-Når utgaven testes vil de faktiske verdiene fra kodelisten populeres inn i nedtrekkslisten.
+Når tjenesten testes vil de faktiske verdiene fra kodelisten populeres inn i nedtrekkslisten.
 
 {{<figure src="ui-editor-codelist-config.gif?width=1000" title="UI editor - konfigurere knytning til kodeliste">}}
 

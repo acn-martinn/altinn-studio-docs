@@ -1,6 +1,6 @@
 ---
-title: Test utgave
-description: Informasjon om testing av utgave
+title: Test tjeneste
+description: Informasjon om testing av tjenester
 tags: ["guide"]
 weight: 100
 ---
@@ -15,15 +15,15 @@ og se hvordan disse oppfører seg.
 
 {{<figure src="ui-editor-preview.gif?width=1000" title="Preview">}}
 
-## Kjør utgaven i Runtime
+## Kjør tjenesten i Runtime
 
-Utgaven kan testes med en testbruker i Runtime.
+Tjenesten kan testes med en testbruker i Runtime.
 
-1. Gå til utgavearbeidsflaten (velg utgaven i toppmenyen eller gå inn til utgaven via forsiden)
+1. Gå til tjenestearbeidsflaten (velg tjenesten i toppmenyen eller gå inn til tjenesten via forsiden)
 2. Under **Test**, velg {{<icon name="fa-play">}}-ikonet.
 3. Velg testbruker fra listen
 4. Velg eksisterende instans, eller start ny.
 
-Utgaven kan nå testes, all funksjonalitet som er beskrevet over i _Preview_ er også tilgjengelige for test i Runtime.
+Tjenesten kan nå testes, all funksjonalitet som er beskrevet over i _Preview_ er også tilgjengelige for test i Runtime.
 
-{{<figure src="runtime-test.gif?width=1000" title="Test utgave i Runtime">}}
+{{<figure src="runtime-test.gif?width=1000" title="Test tjeneste i Runtime">}}
